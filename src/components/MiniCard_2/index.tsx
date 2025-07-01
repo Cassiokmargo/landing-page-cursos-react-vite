@@ -8,7 +8,7 @@ interface MiniCard2Props {
 const MiniCard2 = ({ h3, p }: MiniCard2Props ) => {
   return (
     <div className="container_minicard2">
-        <img src='./src/assets/icons/verifica.png' alt='icone de verificado'></img>
+        <img src='./assets/icons/verifica.png' alt='icone de verificado'></img>
         <h3>{h3}</h3>
         <p>{p}</p>
     </div>

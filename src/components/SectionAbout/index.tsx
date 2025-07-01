@@ -5,7 +5,7 @@ const SectionAbout = () => {
     <section className={styles.container_section_about}>
       <div className={styles.container_div_about}>
         <img
-          src="./src/assets/imagens/background-4.png"
+          src="./assets/imagens/background-4.png"
           alt="foto de perfil sobre"
         />
         <p>

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className={styles.container_footer}>
       <div className={styles.container_div_footer}>
-        <Logo src='./src/assets/imagens/logo-footer.png' alt='Logo da empresa'/>
+        <Logo src='./assets/imagens/logo-footer.png' alt='Logo da empresa'/>
         <p>Todos os direitos reservados</p>
       </div>
     </footer>

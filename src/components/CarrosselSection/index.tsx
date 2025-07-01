@@ -8,52 +8,52 @@ function CarrosselSection() {
   const data = [
     {
       id: "1",
-      image: "./src/assets/imagens/slide-1.png",
+      image: "./assets/imagens/slide-1.png",
       alt: "Imagem slide-1",
     },
     {
       id: "2",
-      image: "./src/assets/imagens/slide-2.png",
+      image: "./assets/imagens/slide-2.png",
       alt: "Imagem slide-2",
     },
     {
       id: "3",
-      image: "./src/assets/imagens/slide-3.png",
+      image: "./assets/imagens/slide-3.png",
       alt: "Imagem slide-3",
     },
     {
       id: "4",
-      image: "./src/assets/imagens/slide-4.png",
+      image: "./assets/imagens/slide-4.png",
       alt: "Imagem slide-4",
     },
     {
       id: "5",
-      image: "./src/assets/imagens/slide-5.png",
+      image: "./assets/imagens/slide-5.png",
       alt: "Imagem slide-5",
     },
     {
       id: "6",
-      image: "./src/assets/imagens/slide-1.png",
+      image: "./assets/imagens/slide-1.png",
       alt: "Imagem slide-6",
     },
     {
       id: "7",
-      image: "./src/assets/imagens/slide-2.png",
+      image: "./assets/imagens/slide-2.png",
       alt: "Imagem slide-7",
     },
     {
       id: "8",
-      image: "./src/assets/imagens/slide-3.png",
+      image: "./assets/imagens/slide-3.png",
       alt: "Imagem slide-8",
     },
     {
       id: "9",
-      image: "./src/assets/imagens/slide-4.png",
+      image: "./assets/imagens/slide-4.png",
       alt: "Imagem slide-9",
     },
     {
       id: "10",
-      image: "./src/assets/imagens/slide-5.png",
+      image: "./assets/imagens/slide-5.png",
       alt: "Imagem slide-10",
     },
   ];

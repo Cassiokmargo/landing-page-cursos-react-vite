@@ -12,11 +12,11 @@ const MiniCardDepo = ({ blockquote, avatar, h3, p }: MiniCardDepoProps) => {
   return (
     <div className={styles["container_minicarddepo"]}>
       <div className={styles["testimonials-rate"]}>
-        <img src="./src/assets/icons/star.svg" alt="icone de estrela"></img>
-        <img src="./src/assets/icons/star.svg" alt="icone de estrela"></img>
-        <img src="./src/assets/icons/star.svg" alt="icone de estrela"></img>
-        <img src="./src/assets/icons/star.svg" alt="icone de estrela"></img>
-        <img src="./src/assets/icons/star.svg" alt="icone de estrela"></img>
+        <img src="./assets/icons/star.svg" alt="icone de estrela"></img>
+        <img src="./assets/icons/star.svg" alt="icone de estrela"></img>
+        <img src="./assets/icons/star.svg" alt="icone de estrela"></img>
+        <img src="./assets/icons/star.svg" alt="icone de estrela"></img>
+        <img src="./assets/icons/star.svg" alt="icone de estrela"></img>
       </div>
       <blockquote className={styles["testimonial-quote"]}>{blockquote}</blockquote>
       <div className={styles["testimonial-author"]}>

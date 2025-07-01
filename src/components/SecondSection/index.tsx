@@ -5,7 +5,7 @@ const SecondSection = () => {
   return (
     <section className={styles.second_section_container}>
         <div className={styles.container_div_section2}>
-            <img src='./src/assets/icons/seta-p-baixo.png' alt='icone de seta'></img>
+            <img src='./assets/icons/seta-p-baixo.png' alt='icone de seta'></img>
             <h2>
                 Benefícios do Curso
             </h2>

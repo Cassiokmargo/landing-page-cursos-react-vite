@@ -5,7 +5,7 @@ const WhatsApp = () => {
     <div className={styles.whatsapp}>
       <a href="http://wa.me/55xxxxxxxxxxx" target="_blank">
         <img
-          src="./src/assets/icons/whatsapp.png"
+          src="./assets/icons/whatsapp.png"
           alt="Botao de contato para Whatsapp"
           title="Fala conosco pelo whatsapp"
         />        

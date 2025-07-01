@@ -11,7 +11,7 @@ const TestimonySection = () => {
       id: "1",
       blockquote:
         "Experiência incrível! Desde o primeiro contato, fui muito bem atendido e recebi todas as informações de forma clara. Recomendo para todos!",
-      avatar: "./src/assets/imagens/avatar1.svg",
+      avatar: "./assets/imagens/avatar1.svg",
       h3: "Valdir de tal",
       p: "Cliente desde 2023",
     },
@@ -19,7 +19,7 @@ const TestimonySection = () => {
       id: "2",
       blockquote:
         "Experiência nota 1000! Desde o primeiro contato, fui muito bem atendido e recebi todas as informações de forma clara. Recomendo para todos!",
-      avatar: "./src/assets/imagens/avatar2.svg",
+      avatar: "./assets/imagens/avatar2.svg",
       h3: "Fulano da Silva",
       p: "Cliente desde 2024",
     },
@@ -27,7 +27,7 @@ const TestimonySection = () => {
       id: "3",
       blockquote:
         "Experiência sensacional! Desde o primeiro contato, fui muito bem atendido e recebi todas as informações de forma clara. Recomendo para todos!",
-      avatar: "./src/assets/imagens/avatar3.svg",
+      avatar: "./assets/imagens/avatar3.svg",
       h3: "Beltrano Menezes",
       p: "Cliente desde 2024",
     },
@@ -35,7 +35,7 @@ const TestimonySection = () => {
       id: "4",
       blockquote:
         "Experiência incrível! Desde o primeiro contato, fui muito bem atendido e recebi todas as informações de forma clara. Recomendo para todos!",
-      avatar: "./src/assets/imagens/avatar4.svg",
+      avatar: "./assets/imagens/avatar4.svg",
       h3: "Mirtes Albuquerque",
       p: "Cliente desde 2023",
     },
@@ -43,7 +43,7 @@ const TestimonySection = () => {
       id: "5",
       blockquote:
         "Experiência nota 1000! Desde o primeiro contato, fui muito bem atendido e recebi todas as informações de forma clara. Recomendo para todos!",
-      avatar: "./src/assets/imagens/avatar5.svg",
+      avatar: "./assets/imagens/avatar5.svg",
       h3: "Sidney Correia",
       p: "Cliente desde 2025",
     },
@@ -51,7 +51,7 @@ const TestimonySection = () => {
       id: "6",
       blockquote:
         "Experiência sensacional! Desde o primeiro contato, fui muito bem atendido e recebi todas as informações de forma clara. Recomendo para todos!",
-      avatar: "./src/assets/imagens/avatar6.svg",
+      avatar: "./assets/imagens/avatar6.svg",
       h3: "Cesar Filpando",
       p: "Cliente desde 2023",
     },
