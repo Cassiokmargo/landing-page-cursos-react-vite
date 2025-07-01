@@ -1,11 +1,16 @@
+.testimonials {
+    padding-top: 20%;
+    padding-bottom: -5%;
+}
+
 .testimonials_container {
-    padding: 15% 0;
+    box-sizing: border-box;
 }
 
 #testimonials_header {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
 }
 
 #testimonials_header h2 {
@@ -33,6 +38,7 @@
     justify-content: center;    
     height: 380px;
     position: relative;
+    box-sizing: border-box;
     
 }
 
@@ -44,6 +50,11 @@
 
 
 @media (max-width: 720px) {
+    .testimonials {
+        padding-top: 30%;
+        padding-bottom: 0;
+    }
+
     .container_depo {
         width: 420px;
         margin-left: 2.8rem;
@@ -51,6 +62,11 @@
 }
 
 @media (max-width: 480px) {
+    .testimonials {
+        padding-top: 50%;
+        
+    }
+
     .container_depo {
         width: 260px;
         
@@ -58,8 +74,10 @@
 }
 
 @media (min-width: 390px) and (max-width: 393px) {
+    
+
     .testimonials_container {
-        padding-top: 50%;
+        padding-top: 40%;
     }
 
     .container_depo {
