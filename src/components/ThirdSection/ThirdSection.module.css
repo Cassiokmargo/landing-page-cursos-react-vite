@@ -79,7 +79,7 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (min-width: 390px) and (max-width: 393px) {
     .container_1 h2 {
         font-size: 1.6rem;
     }
