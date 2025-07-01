@@ -57,6 +57,16 @@
     }
 }
 
+@media (max-width: 390px) {
+    .testimonials_container {
+        padding-top: 50%;
+    }
+
+    .container_depo {
+        width: 200px;
+    }
+}
+
 @media (max-width: 320px) {
     .testimonials_container {
         padding-top: 60%;

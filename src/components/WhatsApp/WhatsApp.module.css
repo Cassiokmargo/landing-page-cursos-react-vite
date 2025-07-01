@@ -32,9 +32,15 @@
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:390px) {
     .whatsapp {
         right: -455px;
+    }
+}
+
+@media (max-width:320px) {
+    .whatsapp {
+        right: -465px;
     }
 
     .whatsapp img {
