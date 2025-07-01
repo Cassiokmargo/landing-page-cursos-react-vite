@@ -1,0 +1,81 @@
+.section_one_container {
+    display: flex;
+    padding: 150px 120px;      
+    background: var(--background-main);    
+}
+
+.section_one_container {
+    background-image: url('../../assets/imagens/background-2-1-sombreado.png');
+    background-repeat: no-repeat;       
+    background-size: cover;
+}
+
+.container_div {
+    display: flex;
+    flex-direction: column;   
+    gap: 1.7rem    
+}
+
+
+.container_div h1 {
+    font-size: 45px;
+    font-weight: bold;    
+    color: var(--cor-verde-fonte);
+    width: auto;
+}
+
+.container_div p {
+    font-size: 36px;    
+    line-height: normal;    
+}
+
+.container_div button {
+    width: 300px;
+    font-family: var(--font-family);
+}
+
+@media (max-width: 720px) {
+    .container_div {
+        align-items: center;
+    }
+    
+    .container_div p {
+        text-align: center;
+    }
+
+    .section_one_container {
+        background-position: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .section_one_container {
+        padding: 50px;
+    }
+
+    .container_div p {
+        text-align:left;
+        font-size: 1.6rem;
+    }
+} 
+
+@media (max-width: 320px) {
+    .section_one_container {
+        padding: 1rem 1rem 0 1rem;
+        background-position-x: 45%;
+    }
+
+
+    .container_div h1 {
+        font-size: 2rem;
+    }
+
+    .container_div p {
+        font-size: 1.2rem;
+    }
+
+    .container_div button {
+        width: auto;
+    }
+}

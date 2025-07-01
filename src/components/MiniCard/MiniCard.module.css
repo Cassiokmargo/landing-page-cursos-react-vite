@@ -1,0 +1,10 @@
+.card_container {    
+    border: 2px solid var(--cor-cinza);
+    color: var(--cor-cinza);
+    font-size: 20px;
+    padding: 2.2rem;
+    border-radius: 8px;
+    width: 260px;
+    height: auto;
+}
+

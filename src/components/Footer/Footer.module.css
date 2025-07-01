@@ -1,0 +1,38 @@
+.container_footer {
+    background: var(--background-footer);
+    max-height: fit-content;
+    
+}
+
+.container_div_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_div_footer img {
+    width: 60%;   
+    height: auto;
+    border-radius: 0;
+    padding: .8rem;
+}
+
+.container_div_footer p {
+    font-size: 1.1rem;
+}
+
+@media (max-width:480px) {
+    .container_div_footer img {
+        width: 50%;
+    }
+
+    .container_div_footer p {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:320px) {
+    .container_footer p {
+        font-size: .6rem;
+    }
+}

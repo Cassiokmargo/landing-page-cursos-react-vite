@@ -1,0 +1,55 @@
+.container_section_about {
+    display: flex;
+    justify-content: flex-end;
+    padding: 150px 120px;
+    background-image: url('../../assets/imagens/background-3-sombreado.png');
+    background-repeat: no-repeat;       
+    background-size: cover;  
+    border-top: 1px solid #6FCAAB;      
+    border-bottom: 1px solid #6FCAAB;      
+}
+
+.container_div_about {  
+    width: 40%;
+    
+}
+
+.container_div_about img {
+    display: none;
+}
+
+.container_div_about p {
+    font-size: 1.5rem;
+    color: #fff;  
+    font-weight: 400;  
+    line-height: normal;  
+    padding-bottom: 1.6rem;  
+}
+
+@media (max-width: 720px) {
+    .container_section_about {
+        justify-content: center;
+        background-image: none;
+        background: linear-gradient(180deg,rgba(28, 54, 46, 1) 25%, rgba(42, 75, 63, 1) 50%, rgba(47, 94, 79, 0.99) 100%);
+    }
+    .container_div_about {
+        width: auto;       
+    }
+
+    .container_div_about p {
+        color: #fff;
+    }
+
+    .container_div_about img {
+        display: flex;
+        border-radius: 50%;
+        width: 100%;
+        padding-bottom: 2rem;
+    }  
+}
+
+@media (max-width:320px) {
+    .container_div_about p {
+        font-size: 1.3rem;
+    }
+}

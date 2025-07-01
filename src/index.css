@@ -1,0 +1,49 @@
+section {
+    min-height: 100vh;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--background-main);
+}
+
+:root {
+    --font-family: "Lato", sans-serif;
+    --background-gradiente1: linear-gradient(180deg, rgba(28, 54, 46, 1) 0%, rgba(42, 75, 63, 1) 50%, rgba(47, 94, 79, 0.99) 100%);
+    --background-gradiente2: linear-gradient(360deg, rgba(28, 54, 46, 1) 0%, rgba(42, 75, 63, 1) 50%, rgba(47, 94, 79, 0.99) 100%);
+    --background-main: rgb(0, 75, 56);
+    --background-footer: #0e1b17;
+    --cor-verde-fonte: #6cc9ad;
+    --branco: #fff;
+    --cor-cinza: rgba(255, 255, 255, 0.596);
+    --botao: linear-gradient(180deg, rgba(0, 208, 255, 0.71) 0%, rgba(42, 123, 155, 1) 100%)
+}
+
+.swiper-slide {
+    padding-left: 8px;    
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    height: 30px;
+
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: var(--botao);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+@media (max-width:1440px) {
+    .swiper-slide {
+    padding-left: 16px;    
+}
+}
+
+@media (max-width:720px) {
+  .swiper-slide {
+    padding-left: 0px;    
+}  
+}
